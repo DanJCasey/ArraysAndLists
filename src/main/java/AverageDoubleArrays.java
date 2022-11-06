@@ -4,15 +4,28 @@ public class AverageDoubleArrays {
 // Complete these methods
 
     public int count(double[] aa) {
-        return 0;
+        return aa.length;
     }
 
-    public int sum(double[] aa) {
+    public double sum(double[] aa) {
+        double newSum = 0;
+        for (int i = 0; i < aa.length; i++) {
+            newSum += aa[i];
+        }
 
-        return 0;
+
+        return newSum;
     }
 
-    public int average(double[] aa) {
+    public double average(double[] aa) {
+        double newSum = 0;
+        if (aa.length != 0) {
+            for (int i = 0; i < aa.length; i++) {
+                newSum += aa[i];
+            }
+            return newSum / aa.length;
+
+        }
         return 0;
     }
 
