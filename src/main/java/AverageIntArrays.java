@@ -3,7 +3,8 @@ public class AverageIntArrays {
 // Complete these methods
 
     public int count(int[] aa) {
-        return 0;
+
+        return aa.length;
     }
 
     public int sum(int[] aa) {
